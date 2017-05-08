@@ -4,6 +4,10 @@ import abstractclass.BusinessAccount;
 import org.junit.Assert;
 import org.junit.Test;
 
+
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by vilenalivinsky on 5/3/17.
  */
@@ -36,6 +40,7 @@ public class TestBusinessAccount {
         Assert.assertEquals(expectedResult,actualResult);
 
     }
+
 
 }
 
